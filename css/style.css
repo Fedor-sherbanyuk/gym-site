@@ -3,6 +3,7 @@ body {
     background: black;
     position: relative;
     z-index: 5;
+    margin: 0 0 0 -16px;
 }
 
 .wrapper {
@@ -12,11 +13,13 @@ body {
 }
 
 .rect_big {
-    width: 100vw;
-    height: 163px;
+
+    width: 98.9vw;
+    height: 98vw;
     position: absolute;
+    overflow: hidden;
     z-index: 35;
-    top: 87%;
+    top: 9%;
 }
 
 .rect_big > div {
@@ -28,7 +31,7 @@ body {
     background: #af1c1a;
     border-radius: 0 0 20px 0;
     position: absolute;
-    top: 3%;
+    top: 10%;
 }
 
 .rect_big > div:after {
@@ -80,7 +83,8 @@ body {
 
 .banner {
     position: relative;
-    margin-bottom: 122px;
+    /*margin-bottom: 122px;*/
+    overflow: hidden;
 }
 
 .d-flex {
@@ -94,9 +98,12 @@ body {
 }
 
 .features {
-    margin: 0 0 160px 0;
+    background-image: linear-gradient(-24deg, #20191b 0%, #20191b 100%);
+    margin: 0 0 0 0;
     position: relative;
     z-index: 0;
+    overflow: hidden;
+    padding-top: 122px;
 }
 
 .brown {
@@ -390,7 +397,7 @@ ul li > a {
     width: 100%;
     position: absolute;
     z-index: 8;
-    bottom: -11.5%;
+    bottom: -12%;
     left: 5%;
     margin: 0 0 0 0;
 }
@@ -418,6 +425,7 @@ ul li > a {
     background-image: linear-gradient(to bottom, #af1c1a 0%, #af1c1a 100%, #20191b 100%);
     position: relative;
     z-index: 15;
+    overflow: hidden;
 }
 
 .red {
@@ -576,8 +584,9 @@ ul li > a {
     /* box-shadow: 0 8px 7px rgb(0 0 1 / 75%); */
     background-image: linear-gradient(to top, #af1c1a 0%, #af1c1a 100%);
     border-top: 66px solid #af1c1a;
-    border-right: 50vw solid transparent;
-    border-left: 50vw solid transparent;
+    border-right: 49.99vw solid transparent;
+    border-left: 49.99vw solid transparent;
+
     bottom: 102%;
     left: 0;
     z-index: 15;
@@ -589,7 +598,7 @@ ul li > a {
     position: absolute;
     box-shadow: 0 8px 7px rgb(0 0 1 / 75%);
     background-image: linear-gradient(to top, #20191b 0%, #20191b 100%);
-    width: 100vw;
+    width: 69.9vw;
     padding-bottom: 70px;
     bottom: 100%;
     left: 30vw;
@@ -609,7 +618,7 @@ ul li > a {
     /*margin: 0 76px 0 0;*/
     position: absolute;
     top: -37.1%;
-    left: -2.51%;
+    left: -2%;
     z-index: 0;
 
 }
@@ -657,7 +666,7 @@ ul li > a {
     width: 82px;
     background-color: #af1c1a;
     justify-content: center;
-    margin: 22px 0 0 167px;
+    margin: 22px 0 0 175px;
 }
 
 .photo_personal > li + li > h2 + h2 + p > a {
@@ -680,7 +689,7 @@ ul li > a {
     padding-bottom: 370px;
     position: absolute;
     top: -64.8%;
-    right: 13.95%;
+    right: 14.3%;
     z-index: 5;
     /*background-image: radial-gradient(circle 864px at center, #20191b 0%, #000000 100%);*/
 }
@@ -1108,6 +1117,7 @@ h4:after {
 
 .group2 {
     position: relative;
+
 }
 
 .group2:after {
@@ -1116,8 +1126,8 @@ h4:after {
     /*box-shadow: 0 8px 7px rgba(0, 0, 1, 0.75);*/
     background-image: linear-gradient(to top, #8f1715 0%, #8f1715 100%);
     border-top: 70px solid #8f1715;
-    border-right: 50vw solid #20191b;
-    border-left: 50vw solid #20191b;
+    border-right: 50.9vw solid #20191b;
+    border-left: 49vw solid #20191b;
     bottom: -14%;
     left: 0;
     transform: rotate(180deg);
@@ -1129,6 +1139,7 @@ h4:after {
     background: #20191b;
     margin: 70px 0 10px 0;
     z-index: 10;
+    /*overflow: hidden;*/
 }
 
 .price_red {
@@ -1239,6 +1250,7 @@ h4:after {
     margin: 110px 0 0 0;
     padding-bottom: 5px;
     box-shadow: 0 8px 7px rgba(0, 0, 1, 0.75);
+    /*overflow: hidden;*/
 }
 
 .makhneva > div > div {
@@ -1457,6 +1469,7 @@ h4:after {
 .end {
     position: relative;
     margin: -100px auto auto auto;
+    /*overflow: hidden;*/
 }
 
 .end:before {
