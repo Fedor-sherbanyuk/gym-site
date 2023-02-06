@@ -321,6 +321,8 @@ ul li > a {
     z-index: 10;
 }
 
+
+
 .photo_feature_text2 {
     margin: -5px 0 0 29px;
     width: 383px;
@@ -1804,4 +1806,110 @@ h4:after {
     position: absolute;
     z-index: 12;
     top: -5.2%;
+}
+
+@media screen and (max-width: 1592px) and
+(min-width: 1210px) {
+    .banner_red2 {
+        padding: 105px 0 0 0;
+        width: 100%;
+        position: absolute;
+        z-index: 8;
+        margin: -71px 0 0 0;
+        background: linear-gradient(10.8deg, #af1c1a 100%, transparent 100%);
+    }
+
+    .banner_red {
+        background-image: none;
+        transform: none;
+        padding: 0 0 0 0;
+        width: 0;
+        z-index: 8;
+        bottom: -12%;
+        left: 5%;
+        margin: 0 0 0 0;
+    }
+
+    .ss {
+        width: 120vw;
+        padding-bottom: 265px;
+        background: linear-gradient(6deg, #af1c1a 50%, transparent 50%);
+        position: absolute;
+        bottom: -24%;
+        left: 0;
+        z-index: 11;
+    }
+
+    .photo_personal > li:last-child {
+        right: -5vw;
+    }
+    .strike_brown {
+        background-image: linear-gradient(to bottom right, transparent 99%, #20191b 51%, #20191b 100%);
+    }
+}
+
+@media screen and (max-width: 1369px) and
+(min-width: 1114px) {
+    .banner_red2 {
+        padding: 105px 0 0 0;
+        width: 100%;
+        position: absolute;
+        z-index: 8;
+        margin: -71px 0 0 0;
+        background: linear-gradient(10.8deg, #af1c1a 100%, transparent 100%);
+    }
+
+    .banner_red {
+        background-image: none;
+        transform: none;
+        padding: 0 0 0 0;
+        width: 0;
+        z-index: 8;
+        bottom: -12%;
+        left: 5%;
+        margin: 0 0 0 0;
+    }
+
+    .ss {
+        width: 120vw;
+        padding-bottom: 265px;
+        background: linear-gradient(6deg, #af1c1a 50%, transparent 50%);
+        position: absolute;
+        bottom: -24%;
+        left: 0;
+        z-index: 11;
+    }
+
+    .photo_personal > li:last-child {
+        right: -5vw;
+    }
+    .strike_brown {
+        background-image: linear-gradient(to bottom right, transparent 99%, #20191b 51%, #20191b 100%);
+    }
+    .photo_personal > li + li > h2 {
+    margin: 0 0 0 -100px;
+    }
+
+    .photo_personal > li + li > h2 + h2 + p {
+        margin: 22px 0 0 0;
+    }
+    .photo_feature_text {
+        line-height: normal;
+        text-align: center;
+        margin: 114px 0 0 10px;
+    }
+    .photo_feature_text2 {
+        margin: -5px 0 0 0;
+        width: 503px;
+    }
+
+    .margin_top {
+        margin: 0 0 0 10px;
+        position: relative;
+    }
+
+
+    .banner_text1 {
+        margin: 0 0 0 10px;
+    }
 }
